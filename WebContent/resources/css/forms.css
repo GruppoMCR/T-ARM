@@ -1,0 +1,73 @@
+/*md-input-container label {
+	color: #999; 
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 5px;
+	top: 10px;
+	transition: all 0.2s ease;
+	-webkit-transform: translate3d(0, 6px, 0) scale(.75) !important;
+	transform: translate3d(0, 6px, 0) scale(.75) !important;
+	-webkit-transition: width .4s cubic-bezier(.25, .8, .25, 1),-webkit-transform .4s cubic-bezier(.25, .8, .25, 1) !important;
+	transition: width .4s cubic-bezier(.25, .8, .25, 1), -webkit-transform .4s cubic-bezier(.25, .8, .25, 1) !important;
+	transition: transform .4s cubic-bezier(.25, .8, .25, 1), width .4s cubic-bezier(.25, .8, .25, 1) !important;
+	transition: transform .4s cubic-bezier(.25, .8, .25, 1), width .4s cubic-bezier(.25, .8, .25, 1), -webkit-transform .4s	cubic-bezier(.25, .8, .25, 1) !important;
+	opacity: 1 !important;
+	top: auto !important;
+}
+
+md-input-container input {
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	-webkit-appearance: none;
+	display: block;
+	background: #fafafa;
+	color: #636363;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+md-input-container input:focus ~ label, input.used ~ label {
+	top: -20px;
+  transform: scale(.75); left: -2px;
+	color: #4a89dc;
+}*/
+
+md-input-container label form {
+	width: 100%;
+	margin: 4em auto;
+	padding: 3em 2em 2em 2em;
+	background: #fafafa;
+	border: 1px solid #ebebeb;
+	box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+}
+
+.formRegistrazione {
+	width:100%;
+	display: inline-block;
+    text-align: center;
+}
+.recuperaCredenzialiForm {
+	width:100%;
+	display: inline-block;
+    text-align: center;
+}
+
+.formLogin {
+	width:100%;
+	display: inline-block;
+	text-align: center;
+	height: 100%;
+    overflow: hidden;
+}
+
+.loginContent .formLogin{
+	width: 100%;
+    height: 99%;  
+    overflow: hidden;
+    padding-right: 15px;
+}
+
