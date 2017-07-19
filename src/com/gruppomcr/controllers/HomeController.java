@@ -20,14 +20,14 @@ public class HomeController {
 	
 	@RequestMapping(value = {"/"}, method = RequestMethod.GET)
     public String homePage(ModelMap model) {
-		System.out.println("#TEST# HOME Mapping");
+		System.out.println("#TEST# HomeController Mapping");
         return "index";
     }
  
-    @RequestMapping(value = {"/login"}, method = RequestMethod.GET)
+    @RequestMapping(value = {"/pageLoading"}, method = RequestMethod.GET)
     public String loginPage(ModelMap model) {
     	System.out.println("#TEST# LOGIN Mapping");
-        return "login";
+        return "pageLoading";
     }
  
     @RequestMapping(value = {"/contacti_email"}, method = RequestMethod.GET)

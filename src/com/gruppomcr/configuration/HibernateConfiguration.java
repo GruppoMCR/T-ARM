@@ -59,7 +59,7 @@ public class HibernateConfiguration {
     public LocalSessionFactoryBean sessionFactory() {
         LocalSessionFactoryBean sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan(new String[] { "com.gruppomcr.animali.dao" });
+        sessionFactory.setPackagesToScan("com.gruppomcr.animali.dao");
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
      }

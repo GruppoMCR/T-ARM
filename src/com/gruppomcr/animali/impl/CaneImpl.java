@@ -60,7 +60,7 @@ public class CaneImpl extends AbstractDao implements Cani {
 	public boolean cercaAnimale(Integer id) {
 		Session session = super.getSession();
 		Cane cane = session.get(Cane.class, id);
-		return cane==null ? false : true;
+		return cane != null;
 	}
 
 	@Override

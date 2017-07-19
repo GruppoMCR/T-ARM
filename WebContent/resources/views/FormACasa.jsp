@@ -15,7 +15,6 @@
         <label>cognome</label>
         <input type="text" ng-model="cognome">
       </md-input-container>
-      
       <md-input-container layout="column">
         <label>Email</label>
         <input type="email" ng-model="email">
@@ -44,7 +43,7 @@
       </md-input-container>
 
       <md-input-container layout="column">
-        <label>Perchè volete adottare un cane?</label>
+        <label>Perche volete adottare un cane?</label>
         <input type="text" ng-model="adottare">
       </md-input-container>
       
@@ -80,3 +79,6 @@
     </div>
         </md-content>
       </md-tab>
+    </md-tabs>
+  </md-content>
+</div>

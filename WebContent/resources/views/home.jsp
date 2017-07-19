@@ -1,14 +1,10 @@
-
-<!-- <div id="mainLogo"> -->
-<%-- 			<img src="<c:url value='/resources/img/main_logo.jpg'/>" /> --%>
-<!-- 		</div>  -->
 <div class="top_navbar md-whiteframe-15dp" layout-padding >
 	<md-toolbar class="md-toolbar-tools" layout-align="space-between center"> 
 		<div> 
  			<i class="material-icons">menu</i>
 		</div>
 		<div>
-		
+			<a href="/resources/views/pageLoading.jsp" title="Test">Test</a>
 			<a class="topNav1" ui-sref-active="active" ui-sref="home">Home</a> 
 			<a class="topNav2" ui-sref-active="active" ui-sref="home.contatti">Contatti</a> 
 			<a class="topNav3" ui-sref-active="active" ui-sref="home.login">Login</a>

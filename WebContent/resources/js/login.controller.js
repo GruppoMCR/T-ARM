@@ -6,7 +6,7 @@ angular.module('bauApp.controllers').controller('LoginController', function($sco
 	$scope.submitRegistrazione=function(){
 		$log.debug('submitRegistrazione()');
 		console.log($scope.form);
-	}
+	};
 
 	$scope.verificaCredenziali = function() {
 	    // Appending dialog to document.body to cover sidenav in docs app

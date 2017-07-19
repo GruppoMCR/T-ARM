@@ -133,8 +133,7 @@ function DialogController($scope, $mdDialog) {
   $scope.answer = function(answer) {
     $mdDialog.hide(answer);
   };
-};
-
+}
 app.controller('DemoCtrl', DemoCtrl);
   function DemoCtrl ($timeout, $q) {
     var self = this;
@@ -177,8 +176,7 @@ app.controller('DemoCtrl', DemoCtrl);
         return (state.value.indexOf(lowercaseQuery) === 0);
       };
     }
-  };
-
+  }
 app.config(function($mdThemingProvider) {
   var customBlueMap = 		$mdThemingProvider.extendPalette('light-blue', {
     'contrastDefaultColor': 'light',
