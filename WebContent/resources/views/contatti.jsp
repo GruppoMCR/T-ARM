@@ -1,6 +1,6 @@
 <md-content class="test" layout-padding layout-allign="center center">
 	<md-toolbar>
-	<div class="md-toolbar-tools"">
+	<div class="md-toolbar-tools">
 		<h2>
 			<span>Chiama oppure invia un fax</span>
 		</h2>
@@ -63,8 +63,8 @@
 					 </md-input-container>
 
 				<md-button type="submit" class="md-raised md-primary">Invia</md-button>
+			</form>
 			</md-content>
-			<form>
 		</div>
 	</section>
 </md-content>

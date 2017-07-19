@@ -2,6 +2,8 @@ package com.gruppomcr.controllers;
 
 import java.util.List;
 
+import com.gruppomcr.login.LoginService;
+import com.gruppomcr.utenti.dao.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.http.HttpHeaders;
@@ -15,15 +17,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.gruppomcr.login.UserService;
-import com.gruppomcr.pojos.User;
-
 @RestController
 public class LoginController {
 	
-	@Autowired
-	@Qualifier("userService")
-    UserService userService;  //Service which will do all data retrieval/manipulation work
+/*	@Autowired
+	@Qualifier("loginService")
+    LoginService loginService;  //Service which will do all data retrieval/manipulation work
   
      
     //-------------------Retrieve All Users--------------------------------------------------------
@@ -121,7 +120,7 @@ public class LoginController {
     public ResponseEntity<User> deleteAllUsers() {
         System.out.println("Deleting All Users");
   
-        userService.deleteAllUsers();
+        loginService.deleteAllUsers();
         return new ResponseEntity<User>(HttpStatus.NO_CONTENT);
-    }
+    }*/
 }

@@ -34,8 +34,8 @@ angular.module('bauApp', ['bauApp.controllers', 'ngAnimate', 'ui.router', 'ngMat
         	views: {
         		// il template e controller viene inietato nello stato home
         		'content@home': {
-        			templateUrl: 'resources/views/test.jsp',
-        			controller: 'TestController as ctrl'
+        			templateUrl: 'resources/views/pageLoading.jsp',
+        			controller: 'TestController as test'
         		}
         	}
         })
